@@ -1,3 +1,0 @@
-C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/cmake-build-debug/CMakeFiles/Asteroids_in_C.dir
-C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
