@@ -1,0 +1,8 @@
+# ninja log v6
+41	386	7598173313475335	build.ninja	60bf6cb14fe5063c
+94	195	7598155612158175	CMakeFiles/Asteroids_in_C.dir/src/main.c.obj	aa7d183e165a3b83
+6	52	7598172964134736	C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/cmake-build-debug/CMakeFiles/cmake.verify_globs	302eeb18b38da5da
+55	243	7598172964614865	Asteroids_in_C.exe	ff8fbaacfa85d446
+85	198	7598154398767166	CMakeFiles/Asteroids_in_C.dir/src/file.c.obj	a949329bcd36d6c1
+4	45	7598173327595222	C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/cmake-build-debug/CMakeFiles/cmake.verify_globs	302eeb18b38da5da
+47	176	7598173328025152	Asteroids_in_C.exe	8b47fce06a05ed0f
