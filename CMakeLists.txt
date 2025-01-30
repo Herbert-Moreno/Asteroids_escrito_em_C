@@ -16,6 +16,8 @@ FetchContent_Declare(
 set(BUILD_EXAMPLES OFF CACHE INTERNAL "")
 FetchContent_MakeAvailable(raylib)
 
+link_libraries(opengl32 gdi32)
+
 add_executable(Asteroids_in_C "${MY_SOURCES}")
 
 target_link_libraries(${PROJECT_NAME} raylib)

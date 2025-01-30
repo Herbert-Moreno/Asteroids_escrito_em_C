@@ -1,7 +1,6 @@
-#include <stdio.h>
 #include <game.h>
 
-int main(void) {
+int main() {
     game_init();
     game_update();
     return 0;

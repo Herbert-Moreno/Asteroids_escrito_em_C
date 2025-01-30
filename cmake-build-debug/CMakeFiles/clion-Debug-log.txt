@@ -10,6 +10,6 @@
 -- Compiling with the flags:
 --   PLATFORM=PLATFORM_DESKTOP
 --   GRAPHICS=GRAPHICS_API_OPENGL_33
--- Configuring done (0.5s)
--- Generating done (0.1s)
+-- Configuring done (0.3s)
+-- Generating done (0.3s)
 -- Build files have been written to: C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/cmake-build-debug
