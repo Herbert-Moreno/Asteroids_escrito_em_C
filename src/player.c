@@ -12,6 +12,7 @@ void player_init(Player *player) {
   player->active = true;
 }
 
+// TODO: fazer o player andar em movimento horizontal e vertical, atualmente ele so gira e anda pra cima e para baixo
 void player_update(Player *player) {
   player->dest = (Rectangle){player->position.x, player->position.y, (float)player->texture.width*2, (float)player->texture.height*2};
   if (IsKeyDown(KEY_UP) || IsKeyDown(KEY_W)) {
