@@ -32,3 +32,10 @@
 53	9361	7598598721527222	_deps/raylib-build/raylib/CMakeFiles/raylib.dir/raudio.c.obj	172a5e06231b57f1
 9362	9778	7598598814613531	_deps/raylib-build/raylib/libraylib.a	6dce3ed25aa77b48
 9778	10253	7598598818777943	Asteroids_in_C.exe	bbc19570e789a8dc
+93	131	7599014522367737	C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/cmake-build-debug/CMakeFiles/cmake.verify_globs	302eeb18b38da5da
+145	243	7599014522881952	CMakeFiles/Asteroids_in_C.dir/src/main.c.obj	1e9a9be8cd2dc0c7
+139	262	7599014522831982	CMakeFiles/Asteroids_in_C.dir/src/game.c.obj	625b4eace846b243
+262	920	7599014524056016	Asteroids_in_C.exe	bbc19570e789a8dc
+40	73	7599014746855210	C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/cmake-build-debug/CMakeFiles/cmake.verify_globs	302eeb18b38da5da
+78	175	7599014747241506	CMakeFiles/Asteroids_in_C.dir/src/game.c.obj	625b4eace846b243
+176	497	7599014748218378	Asteroids_in_C.exe	bbc19570e789a8dc
