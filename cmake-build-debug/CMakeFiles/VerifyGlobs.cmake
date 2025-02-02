@@ -6,6 +6,7 @@ cmake_policy(SET CMP0009 NEW)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/src/*.c")
 set(OLD_GLOB
   "C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/src/asteroid.c"
+  "C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/src/background.c"
   "C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/src/game.c"
   "C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/src/main.c"
   "C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/src/player.c"

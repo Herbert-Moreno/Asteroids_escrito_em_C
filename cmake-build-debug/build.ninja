@@ -57,6 +57,14 @@ build CMakeFiles/Asteroids_in_C.dir/src/asteroid.c.obj: C_COMPILER__Asteroids_in
   OBJECT_DIR = CMakeFiles\Asteroids_in_C.dir
   OBJECT_FILE_DIR = CMakeFiles\Asteroids_in_C.dir\src
 
+build CMakeFiles/Asteroids_in_C.dir/src/background.c.obj: C_COMPILER__Asteroids_in_C_unscanned_Debug C$:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/src/background.c || cmake_object_order_depends_target_Asteroids_in_C
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DRESOURCES_PATH=\"C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/resources/\"
+  DEP_FILE = CMakeFiles\Asteroids_in_C.dir\src\background.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/src/include -IC:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/cmake-build-debug/_deps/raylib-src/src -IC:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/cmake-build-debug/_deps/raylib-src/src/external/glfw/include
+  OBJECT_DIR = CMakeFiles\Asteroids_in_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Asteroids_in_C.dir\src
+
 build CMakeFiles/Asteroids_in_C.dir/src/game.c.obj: C_COMPILER__Asteroids_in_C_unscanned_Debug C$:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/src/game.c || cmake_object_order_depends_target_Asteroids_in_C
   DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -DRESOURCES_PATH=\"C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/resources/\"
   DEP_FILE = CMakeFiles\Asteroids_in_C.dir\src\game.c.obj.d
@@ -89,7 +97,7 @@ build CMakeFiles/Asteroids_in_C.dir/src/player.c.obj: C_COMPILER__Asteroids_in_C
 #############################################
 # Link the executable Asteroids_in_C.exe
 
-build Asteroids_in_C.exe: C_EXECUTABLE_LINKER__Asteroids_in_C_Debug CMakeFiles/Asteroids_in_C.dir/src/asteroid.c.obj CMakeFiles/Asteroids_in_C.dir/src/game.c.obj CMakeFiles/Asteroids_in_C.dir/src/main.c.obj CMakeFiles/Asteroids_in_C.dir/src/player.c.obj | _deps/raylib-build/raylib/libraylib.a || _deps/raylib-build/raylib/external/glfw/src/glfw _deps/raylib-build/raylib/libraylib.a
+build Asteroids_in_C.exe: C_EXECUTABLE_LINKER__Asteroids_in_C_Debug CMakeFiles/Asteroids_in_C.dir/src/asteroid.c.obj CMakeFiles/Asteroids_in_C.dir/src/background.c.obj CMakeFiles/Asteroids_in_C.dir/src/game.c.obj CMakeFiles/Asteroids_in_C.dir/src/main.c.obj CMakeFiles/Asteroids_in_C.dir/src/player.c.obj | _deps/raylib-build/raylib/libraylib.a || _deps/raylib-build/raylib/external/glfw/src/glfw _deps/raylib-build/raylib/libraylib.a
   FLAGS = -g
   LINK_LIBRARIES = -lopengl32  -lgdi32  _deps/raylib-build/raylib/libraylib.a  -lopengl32  -lglu32  -lwinmm  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Asteroids_in_C.dir

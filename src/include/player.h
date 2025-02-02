@@ -1,5 +1,5 @@
+#pragma once
 #include <raylib.h>
-
 #ifndef PLAYER_H
 #define PLAYER_H
 
@@ -14,7 +14,7 @@ typedef struct player {
   bool active;
 } Player;
 
-void player_init(Player *player);
+void player_init(Player *player, const char *texturapath);
 void player_update(Player *player);
 void player_draw(Player *player);
 
