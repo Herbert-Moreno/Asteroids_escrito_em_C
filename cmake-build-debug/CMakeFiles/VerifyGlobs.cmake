@@ -7,9 +7,11 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/joseh.EMANUELLE/Docu
 set(OLD_GLOB
   "C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/src/asteroid.c"
   "C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/src/background.c"
+  "C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/src/bullet.c"
   "C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/src/game.c"
   "C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/src/main.c"
   "C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/src/player.c"
+  "C:/Users/joseh.EMANUELLE/Documents/Asteroids_in_C/src/ui.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

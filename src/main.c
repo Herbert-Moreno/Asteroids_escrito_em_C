@@ -1,7 +1,7 @@
 #include <game.h>
 
 int main() {
-    game_init();
-    game_update();
+    GameInit();
+    GameUpdate();
     return 0;
 }

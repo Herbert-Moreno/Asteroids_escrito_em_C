@@ -12,17 +12,18 @@ typedef struct background {
 typedef struct movablebackground {
     float scrollspeed;
     Vector2 position;
+    Vector2 movePos;
     Texture2D texture;
     Rectangle src;
     Rectangle dest;
     Color color;
 } MovableBackground;
 
-void Background_init(Background *background, const char *texturapath);
-void Background_draw(Background *background);
+void BackgroundInit(Background *background, const char *texturapath);
+void BackgroundDraw(Background *background);
 
-void MovableBackground_init(MovableBackground *background, const char *texturapath);
-void MovableBackground_update(MovableBackground *background);
-void MovableBackground_draw(MovableBackground *background);
+void MovableBackgroundInit(MovableBackground *background, const char *texturapath);
+void MovableBackgroundUpdate(MovableBackground *background);
+void MovableBackgroundDraw(MovableBackground *background);
 
 #endif //BACKGROUND_H

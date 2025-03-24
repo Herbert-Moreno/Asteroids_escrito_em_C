@@ -6,6 +6,7 @@
 typedef struct player {
   Vector2 position;
   Vector2 origin;
+  Vector2 look_direction;
   float rotation;
   float speed;
   Texture2D texture;
@@ -14,8 +15,9 @@ typedef struct player {
   bool active;
 } Player;
 
-void player_init(Player *player, const char *texturapath);
-void player_update(Player *player);
-void player_draw(Player *player);
+void PlayerInit(Player *player, const char *texturapath);
+void PlayerUpdate(Player *player);
+void PlayerDraw(Player *player);
+void ResetPlayer(Player *player);
 
 #endif //PLAYER_H
